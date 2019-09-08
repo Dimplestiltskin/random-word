@@ -1,3 +1,12 @@
+<DOCTYPE HTML>
+<html>
+	<head>
+		<title>Random Word Generator</title>
+	<head>
+	<body>
+		<script>
+		
+		
 var consonants = ["b","c","d","f","g","h","j","k","l","m","n","p","r","s","t","v","w","x","y","z","rg","rd","pl","qu","dr","bl","vl"];
 var vowels = ["a","e","i","o","u","oo","au","oi","ei","ee","ia","eo","ie"];
 var verbs = ["be","have","do","see","eat","kill","say","go","get","make","know","think","take","come","want","look","use","find","give","tell","work","call","try","ask","need","feel","become","explode","shit","ache","lie about","tunnel","open","construct","understand","know","live"];
@@ -36,7 +45,7 @@ if(f <= .33) type = "noun";
 if (f >= .66) type = "adjective"
 
 
-console.log(word + " - " + type);
+
 
 //definition
 
@@ -78,4 +87,9 @@ while(y === 0) {
 
 
 
-console.log(def);
+document.write(word + " - " + type + ": " + def)
+
+
+		</script>
+	</body>
+<html>
